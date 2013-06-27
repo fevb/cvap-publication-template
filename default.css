@@ -1,0 +1,148 @@
+/* Reset all margins.  */
+* { 
+	margin: 0;	
+}
+
+
+/* General Layout */
+body {
+  /* Default font size / Line spacing - fonts you want */		
+  font: 12px/18px  'Helvetica Neue',Georgia, 'sans-serif';
+  letter-spacing: 1px;
+  background: #FFFFFF;
+  color: #000000;
+  padding: 15px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+}
+
+#main {
+	width: 640px;
+}
+
+h1, h2, h3 {
+	margin-bottom: 0.25em;
+	margin-top: 0.75em;
+	font-weight: normal;
+}
+h1 { margin-bottom: 0.5em; }
+
+p {
+	margin-bottom: .75em;
+	width: 480px;
+}
+
+a {
+	color: #08c;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/*  */
+.contactname { font-weight: bold;}
+.contactinfo {
+	font-size: 0.9em;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+.section {
+	padding: 10px;
+}
+
+.section-div {
+	border-bottom: 1px solid #A4A4A4;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+
+
+/* PUBLICATION STYLES */
+.publication {
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	border-bottom: 1px dotted #ddd;
+
+}
+.papertitle {
+	font-weight: 500;
+}
+.media {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	float: left;
+
+}
+
+.removeBorderBottom { border-bottom: none; margin-bottom: 0px; }
+
+
+
+
+
+
+
+
+
+/* Clear Floats Without Structural Markup 
+ * ---------------------------------------
+ * http://www.positioniseverything.net/easyclearing.html */
+.clearfix {
+  display: inline-block;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* Hides from IE-mac \ */
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+/* End hide from IE-mac */
+/* clear classes */
+.clearleft, .clearl, .cleft {
+  clear: left;
+}
+
+.clearright, .clearr, .cright {
+  clear: right;
+}
+
+.clear, .clearboth, .clearall {
+  clear: both;
+}
+
+/* Float classes */
+.floatleft, .fleft, .floatl {
+  float: left;
+  margin: 0 10px 5px 0;
+}
+
+.floatright, .fright, .floatr {
+  float: right;
+  margin: 0 0 5px 10px;
+}
+
+
+
+
+
+
+
+
