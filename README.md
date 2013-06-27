@@ -1,4 +1,4 @@
 cvap-publication-template
 =========================
 
-Publishing Template for CVAP
+Template for publication page for CVAP
